@@ -24,5 +24,6 @@ class ImageViewController: UIViewController{
         let image1 = UIImage(data: nsdata!)
         imageView.image = image1
     }
+    ///chg
     
 }
