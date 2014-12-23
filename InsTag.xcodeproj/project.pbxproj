@@ -13,6 +13,9 @@
 		D749BDEF1A388B9D00A8E8FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D749BDEE1A388B9D00A8E8FD /* Images.xcassets */; };
 		D749BDF21A388B9D00A8E8FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D749BDF01A388B9D00A8E8FD /* LaunchScreen.xib */; };
 		D749BDFE1A388B9D00A8E8FD /* InsTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BDFD1A388B9D00A8E8FD /* InsTagTests.swift */; };
+		D767F8A51A47263700940981 /* SavedTagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767F8A41A47263700940981 /* SavedTagsViewController.swift */; };
+		D767F8A71A47304D00940981 /* ImagesForTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767F8A61A47304D00940981 /* ImagesForTagViewController.swift */; };
+		D767F8A91A473A5800940981 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767F8A81A473A5800940981 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D749BDF71A388B9D00A8E8FD /* InsTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D749BDFC1A388B9D00A8E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D749BDFD1A388B9D00A8E8FD /* InsTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsTagTests.swift; sourceTree = "<group>"; };
+		D767F8A41A47263700940981 /* SavedTagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedTagsViewController.swift; path = ../SavedTagsViewController.swift; sourceTree = "<group>"; };
+		D767F8A61A47304D00940981 /* ImagesForTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagesForTagViewController.swift; path = ../ImagesForTagViewController.swift; sourceTree = "<group>"; };
+		D767F8A81A473A5800940981 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		D749BDE41A388B9D00A8E8FD /* InsTag */ = {
 			isa = PBXGroup;
 			children = (
+				D767F8A81A473A5800940981 /* ImageViewController.swift */,
+				D767F8A41A47263700940981 /* SavedTagsViewController.swift */,
+				D767F8A61A47304D00940981 /* ImagesForTagViewController.swift */,
 				D749BDE71A388B9D00A8E8FD /* AppDelegate.swift */,
 				D749BDE91A388B9D00A8E8FD /* ViewController.swift */,
 				D749BDEB1A388B9D00A8E8FD /* Main.storyboard */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D767F8A51A47263700940981 /* SavedTagsViewController.swift in Sources */,
 				D749BDEA1A388B9D00A8E8FD /* ViewController.swift in Sources */,
+				D767F8A91A473A5800940981 /* ImageViewController.swift in Sources */,
+				D767F8A71A47304D00940981 /* ImagesForTagViewController.swift in Sources */,
 				D749BDE81A388B9D00A8E8FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				D749BE031A388B9D00A8E8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D749BE041A388B9D00A8E8FD /* Build configuration list for PBXNativeTarget "InsTagTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				D749BE061A388B9D00A8E8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
