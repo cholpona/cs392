@@ -62,12 +62,24 @@ class SavedTagsViewController: UIViewController , UITableViewDataSource, UITable
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let cell = sender as UITableViewCell
         let indexPath = tableView.indexPathForCell(cell)
-        NSLog("%s", indexPath!.item.description)
+        //NSLog("%s", cell.description)
+        NSLog("selected tag is = %@",cell.textLabel.text!)
+       
         let ImagesForTagVC = segue.destinationViewController as ImagesForTagViewController
+        ImagesForTagVC.tagName = cell.textLabel.text!
         
 
     }
-    
-    
-    
+    override func viewDidAppear(animated: Bool) {
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        if let defaultItems = userDefaults.arrayForKey("tags") {
+            tags = defaultItems as [String]
+        } else {
+            tags = [String]()
+            userDefaults.setObject(tags, forKey: "tags")
+        }
+         tableView.reloadData()
+    }
+   
+ 
 }

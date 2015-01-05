@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D702EADD1A4B1406005F9EBC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702EADC1A4B1406005F9EBC /* SearchViewController.swift */; };
+		D70A79D41A518610009C854F /* SearchTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A79D31A518610009C854F /* SearchTagViewController.swift */; };
+		D70A79D61A5198F2009C854F /* FavoriteImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A79D51A5198F2009C854F /* FavoriteImagesViewController.swift */; };
+		D7124B311A5ADCAC007E7E73 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7124B301A5ADCAC007E7E73 /* UserProfileViewController.swift */; };
+		D71B7A021A49B7080058BBCF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71B7A011A49B7080058BBCF /* ImageViewController.swift */; };
 		D749BDE81A388B9D00A8E8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BDE71A388B9D00A8E8FD /* AppDelegate.swift */; };
 		D749BDEA1A388B9D00A8E8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BDE91A388B9D00A8E8FD /* ViewController.swift */; };
 		D749BDED1A388B9D00A8E8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D749BDEB1A388B9D00A8E8FD /* Main.storyboard */; };
@@ -15,7 +20,6 @@
 		D749BDFE1A388B9D00A8E8FD /* InsTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BDFD1A388B9D00A8E8FD /* InsTagTests.swift */; };
 		D767F8A51A47263700940981 /* SavedTagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767F8A41A47263700940981 /* SavedTagsViewController.swift */; };
 		D767F8A71A47304D00940981 /* ImagesForTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767F8A61A47304D00940981 /* ImagesForTagViewController.swift */; };
-		D767F8A91A473A5800940981 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767F8A81A473A5800940981 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D702EADC1A4B1406005F9EBC /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = ../SearchViewController.swift; sourceTree = "<group>"; };
+		D70A79D31A518610009C854F /* SearchTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTagViewController.swift; sourceTree = "<group>"; };
+		D70A79D51A5198F2009C854F /* FavoriteImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteImagesViewController.swift; sourceTree = "<group>"; };
+		D7124B301A5ADCAC007E7E73 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		D71B7A011A49B7080058BBCF /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../ImageViewController.swift; sourceTree = "<group>"; };
 		D749BDE21A388B9D00A8E8FD /* InsTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D749BDE61A388B9D00A8E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D749BDE71A388B9D00A8E8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +50,6 @@
 		D749BDFD1A388B9D00A8E8FD /* InsTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsTagTests.swift; sourceTree = "<group>"; };
 		D767F8A41A47263700940981 /* SavedTagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedTagsViewController.swift; path = ../SavedTagsViewController.swift; sourceTree = "<group>"; };
 		D767F8A61A47304D00940981 /* ImagesForTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagesForTagViewController.swift; path = ../ImagesForTagViewController.swift; sourceTree = "<group>"; };
-		D767F8A81A473A5800940981 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,9 @@
 		D749BDD91A388B9D00A8E8FD = {
 			isa = PBXGroup;
 			children = (
+				D7124B301A5ADCAC007E7E73 /* UserProfileViewController.swift */,
+				D70A79D51A5198F2009C854F /* FavoriteImagesViewController.swift */,
+				D70A79D31A518610009C854F /* SearchTagViewController.swift */,
 				D749BDE41A388B9D00A8E8FD /* InsTag */,
 				D749BDFA1A388B9D00A8E8FD /* InsTagTests */,
 				D749BDE31A388B9D00A8E8FD /* Products */,
@@ -83,8 +94,9 @@
 		D749BDE41A388B9D00A8E8FD /* InsTag */ = {
 			isa = PBXGroup;
 			children = (
-				D767F8A81A473A5800940981 /* ImageViewController.swift */,
 				D767F8A41A47263700940981 /* SavedTagsViewController.swift */,
+				D702EADC1A4B1406005F9EBC /* SearchViewController.swift */,
+				D71B7A011A49B7080058BBCF /* ImageViewController.swift */,
 				D767F8A61A47304D00940981 /* ImagesForTagViewController.swift */,
 				D749BDE71A388B9D00A8E8FD /* AppDelegate.swift */,
 				D749BDE91A388B9D00A8E8FD /* ViewController.swift */,
@@ -221,10 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D702EADD1A4B1406005F9EBC /* SearchViewController.swift in Sources */,
 				D767F8A51A47263700940981 /* SavedTagsViewController.swift in Sources */,
+				D70A79D61A5198F2009C854F /* FavoriteImagesViewController.swift in Sources */,
+				D70A79D41A518610009C854F /* SearchTagViewController.swift in Sources */,
 				D749BDEA1A388B9D00A8E8FD /* ViewController.swift in Sources */,
-				D767F8A91A473A5800940981 /* ImageViewController.swift in Sources */,
+				D71B7A021A49B7080058BBCF /* ImageViewController.swift in Sources */,
 				D767F8A71A47304D00940981 /* ImagesForTagViewController.swift in Sources */,
+				D7124B311A5ADCAC007E7E73 /* UserProfileViewController.swift in Sources */,
 				D749BDE81A388B9D00A8E8FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
